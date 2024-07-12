@@ -33,7 +33,7 @@ function FourthTab() {
               data-aos="fade-right"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="1000"
-              src={LeadershiptImage}
+              src={Shaun}
               alt="Leadership"
               className="w-full md:w-[400px] h-[400px]"
             />
@@ -110,33 +110,7 @@ function FourthTab() {
           Meet our Team
         </p>
 
-        <div className="w-full h-auto flex flex-col md:flex-row justify-between items-center mt-16">
-          <div className="w-full md:w-[30%] h-auto">
-            <Image
-              data-aos="fade-down"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
-              src={Shaun}
-              alt="Shaun"
-              className="w-[250px] h-[250px] rounded-xl m-auto"
-            />
-            <p
-              data-aos="fade-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
-              className="text-[#FFFFFF] text-[24px] font-bold uppercase mt-4"
-            >
-              Shaun Crawford
-            </p>
-            <p
-              data-aos="fade-right"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
-              className="text-[#D9D9D9] text-[14px] font-medium mt-2 uppercase"
-            >
-              Founder
-            </p>
-          </div>
+        <div className="w-full h-auto flex flex-col md:flex-row justify-center items-center mt-16">
 
           <div className="w-full md:w-[30%] h-auto">
             <Image
@@ -165,32 +139,7 @@ function FourthTab() {
             </p>
           </div>
 
-          <div className="w-full md:w-[30%] h-auto">
-            <Image
-              data-aos="fade-down"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
-              src={Shaun}
-              alt="Shaun"
-              className="w-[250px] h-[250px] rounded-xl m-auto"
-            />
-            <p
-              data-aos="fade-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
-              className="text-[#FFFFFF] text-[24px] font-bold uppercase mt-4"
-            >
-              Name of Staff
-            </p>
-            <p
-              data-aos="fade-right"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
-              className="text-[#D9D9D9] text-[14px] font-medium mt-2 uppercase"
-            >
-              Role or Position
-            </p>
-          </div>
+         
         </div>
       </div>
     </ContainerLayout>
