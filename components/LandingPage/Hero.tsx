@@ -95,6 +95,14 @@ const Hero = () => {
               Upgrade to the AI Web4 Browser Experience now
             </p>
 
+            <p
+              data-aos="zoom-in-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+              className="text-[#FFFFFF] text-[18px] md:text-[20px] font-normal mt-10"
+            >
+              Coming soon
+            </p>
             <div className="flex flex-col md:flex-row md:items-center md:space-x-4 mt-10">
               <Image
                 data-aos="zoom-out-down"
@@ -124,7 +132,7 @@ const Hero = () => {
             data-aos-duration="1000"
             className="w-full md:w-[30%] h-[308px] bg-[#00334B5C] rounded-[32px] py-[40px] px-[24px] flex justify-center items-center flex-col mt-10 md:mt-0"
           >
-            <div className="w-full h-[118px] flex justify-between items-center">
+            {/* <div className="w-full h-[118px] flex justify-between items-center">
               <div className="w-[23%] h-full flex justify-center items-center flex-col">
                 <p className="text-[#FFFFFF] text-[40px] font-medium">
                   {timeLeft.days}
@@ -153,7 +161,7 @@ const Hero = () => {
                   Seconds
                 </p>
               </div>
-            </div>
+            </div> */}
             <p className="text-[#FFFFFF] text-[18px] font-normal mb-6 mt-2">
               TAI+ Presale ends soon
             </p>
