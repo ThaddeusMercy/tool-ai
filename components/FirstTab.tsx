@@ -11,7 +11,7 @@ function FirstTab() {
           data-aos-duration="1000"
           className="bg-gradient-to-r from-[#FFFFFF] to-[#9EFFFF] text-transparent bg-clip-text text-[28px] md:text-[48px] font-semibold text-start mt-16"
         >
-          Tai+ Llc
+          Tai+ LLC
         </p>
 
         <p
@@ -21,8 +21,7 @@ function FirstTab() {
           className="text-[#D9D9D9] text-[16px] md:text-[18px] font-normal text-start mt-4"
         >
           A New Frontier in Digital Currency Evolution.TAl+ cryptocurrency
-          represents a strategic collaboration ReWorldbetween ToolAi and TAl+
-          LLC, marking a significant milestone in the digital currency
+          represents a strategic collaboration between 2nd World and ToolAi, marking a significant milestone in the digital currency
           ecosystem. Operated independently by TAl+ LLC, TAl+ benefits from the
           expertise and resources of both entities, combining ToolAi's
           innovative technologies with TAl+'s focused approach to digital

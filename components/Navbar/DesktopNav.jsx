@@ -12,14 +12,14 @@ const Navbar = () => {
     <div className="bg-[#08222B] fixed top-0 right-0 left-0 z-high h-[85px] items-center z-50 shadow hidden md:flex">
       <ContainerLayout>
         <div className="w-full flex justify-between items-center mt-4">
-          <div className="w-fit">
+          <Link  href="/" className="w-fit" >
             <Image
               src={logo}
               width={logo.width}
               height={logo.height}
               alt="company logo"
             />
-          </div>
+          </Link>
           <div className="flex items-center">
             <div className="w-fit space-x-[50px] flex">
               <Link

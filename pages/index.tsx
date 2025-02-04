@@ -11,19 +11,43 @@ import Benefits from "../components/LandingPage/Benefits";
 import Project from "../components/LandingPage/Project";
 import Feature from "../components/LandingPage/Feature";
 import Quantum from "../components/LandingPage/Quantum";
+import logo from "../../assets/png/logo.png";
 import Footer from "../components/Footer";
 
 export default function Home() {
   const [showSecure, setShowSecure] = useState(false);
   const [showUtility, setShowUtility] = useState(false);
   const [showMinting, setShowMinting] = useState(false);
+
+
+  const keywords = `
+  ToolAi, Ai-Defi, Defi Ai, Ai and Crypto, blockchain with Ai
+  `;
   return (
     <>
       <Head>
-        <title>tool-ai</title>
-        <meta name="" content="" />
+        <link rel="icon" href="/favicon.png" />
+        <link rel="alternate" href="https://toolai.ai" hrefLang="en" />
+
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/assets/png/logo.png" />
+        <meta name="ToolAi" content="Ai-defi economy empowering people and businesses to evolve" />
+        <meta name="author" content="ToolAi Team" />
+        <meta name='description' content='ToolAi' />
+        <meta name='keywords' content={keywords} />
+
+        <meta property="og:title" content="Tool Ai" />
+        <meta property="og:description" content="Ai-defi economy empowering people and businesses to evolve" />
+        <meta property="og:image" content="https://toolai.ai/favicon.png" />
+        <meta property="og:url" content="https://toolai.ai" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="Tool Ai" />
+        <meta name="twitter:title" content="Tool Ai" />
+        <meta name="twitter:description" content="Ai-defi economy empowering people and businesses to evolve" />
+        <meta name="twitter:image" content="https://toolai.ai/favicon.png" />
+        <meta name="twitter:url" content="https://toolai.ai" />
+
+        <title>Tool Ai</title>
       </Head>
 
       <div className="bg-[#08222B] w-full h-auto montserrat-regular relative">

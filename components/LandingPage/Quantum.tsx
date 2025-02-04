@@ -2,9 +2,9 @@ import React from "react";
 import Image from "next/image";
 import ContainerLayout from "../../Layouts/ContainerLayout";
 import QuatumImage from "../../assets/png/quantum.png";
-import InnovativeImage from "../../assets/svg/innovative.svg";
+import InnovativeImage from "../../assets/png/innovapp.png";
 import Rectangle from "../../assets/svg/rectangle.svg";
-import PotentialImage from "../../assets/svg/potential.svg";
+import PotentialImage from "../../assets/png/unleashpo.png";
 // import SecondWalletImage from "../../assets/png/2nd wallet logo.jpg";
 import SecondWalletImage from "../../assets/png/2nd-wallet.png";
 
@@ -123,7 +123,7 @@ function Quantum() {
               data-aos-duration="1000"
               src={InnovativeImage}
               alt="innovative-image"
-              className=""
+              className=" w-[100px] h-[100px]"
             />
 
             <div className="border border-[#AA14F015] rounded-lg">
@@ -203,7 +203,7 @@ function Quantum() {
               data-aos-duration="1000"
               src={PotentialImage}
               alt="potential-image"
-              className=""
+              className="w-[100px] h-[100px]"
             />
 
             <div className="border border-[#AA14F015] rounded-lg pb-10">

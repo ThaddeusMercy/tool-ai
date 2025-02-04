@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import ContainerLayout from "../../Layouts/ContainerLayout";
-import AiFeature from "../../assets/svg/ai-feature.svg";
-import DefiFeature from "../../assets/svg/defi-feature.svg";
-import Web4Feature from "../../assets/svg/web4-feature.svg";
+import AiFeature from "../../assets/png/aifeat.png";
+import DefiFeature from "../../assets/png/defifeatures.png";
+import Web4Feature from "../../assets/png/webfour.png";
 
 function Feature() {
   return (

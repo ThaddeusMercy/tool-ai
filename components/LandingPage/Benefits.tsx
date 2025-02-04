@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { IoCloseCircleSharp } from "react-icons/io5";
 import ContainerLayout from "../../Layouts/ContainerLayout";
-import LockImage from "../../assets/svg/lock.svg";
-import MintImage from "../../assets/svg/mint.svg";
-import TradeImage from "../../assets/svg/trad.svg";
+import LockImage from "../../assets/png/securedatamon.png";
+import MintImage from "../../assets/png/inftmint.png";
+import TradeImage from "../../assets/png/aiimt.png";
 
 function Benefits({ setShowSecure, setShowUtility, setShowMinting }) {
   return (

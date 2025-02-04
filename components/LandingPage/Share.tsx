@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import ContainerLayout from "../../Layouts/ContainerLayout";
-import DataImage from "../../assets/svg/data.svg";
-import ControlImage from "../../assets/svg/see.svg";
+import DataImage from "../../assets/jpg/owndata.jpeg";
+import ControlImage from "../../assets/jpg/controlwho.jpeg";
 import MakeImage from "../../assets/svg/make.svg";
 
 function Share() {

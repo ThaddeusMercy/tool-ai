@@ -1,8 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import ContainerLayout from "../../Layouts/ContainerLayout";
-import discover1 from "../../assets/png/discover1.png";
-import ExploreImage from "../../assets/svg/explore.svg";
+import discover1 from "../../assets/png/aiiptext.png";
+// import discover1 from "../../assets/png/discover1.png";
+import ExploreImage from "../../assets/png/diversemeticu.png";
 import Rectangle from "../../assets/svg/rectangle.svg";
 
 function aiiPMarketplaceHero() {
@@ -83,7 +84,7 @@ function aiiPMarketplaceHero() {
                     className="w-[12px] h-[12px] mr-6"
                   />
                   <p className="text-[#D9D9D9] text-[16px] font-normal">
-                    Diverse array of meticulously Trained Ai Agents.
+                  Diverse array of meticulously crafted Aiips.
                   </p>
                 </div>
 

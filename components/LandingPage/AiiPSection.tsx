@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 import ContainerLayout from "../../Layouts/ContainerLayout";
 import Rectangle from "../../assets/svg/rectangle.svg";
-import ContentImage from "../../assets/svg/content.svg";
-import ParticipateImage from "../../assets/svg/participate.svg";
+import ContentImage from "../../assets/png/assesimmersive.png";
+import ParticipateImage from "../../assets/png/connectlikemind.png";
 
 function AiiPSection() {
   return (
