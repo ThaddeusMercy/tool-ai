@@ -8,7 +8,7 @@ import Shaun from "../assets/png/Shaun.png";
 import EbenBolu from "../assets/png/ebenbolu.png";
 import SenayTopay from "../assets/png/senaytopay.png";
 import MerveKiraz from "../assets/png/merveKira.png";
-import davidTrack from "../assets/png/davidTrack.png";
+import davidTrack from "../assets/png/davidTrack.jpeg";
 
 function FourthTab() {
   return (
@@ -279,6 +279,7 @@ function FourthTab() {
             </div>
           </div>
         </div>
+
         <div className="w-full h-auto md:custom-gradient mt-16 rounded-[32px] md:p-10">
           <div className="w-full h-auto md:h-[408px] flex flex-col md:flex-row items-center">
             <Image
@@ -329,16 +330,25 @@ function FourthTab() {
           </div>
         </div>
 
-        <div className="w-full h-auto md:custom-gradient mt-16 rounded-[32px] md:p-10">
+        <div className="w-full h-auto md:custom-gradient mt-16 rounded-[32px] md:p-10 mb-14">
           <div className="w-full h-auto md:h-[408px] flex flex-col md:flex-row items-center">
-            <Image
+            {/* <Image
               data-aos="fade-right"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="1000"
               src={davidTrack}
               alt="davidTrack"
               className="w-full md:w-[400px] h-[400px]"
+            /> */}
+            <Image
+              data-aos="fade-right"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000"
+              src={davidTrack}
+              alt="davidTrack"
+              className="w-full md:w-[140rem] h-[400px] md:h-[500px]"
             />
+            {/* <div className="bg-red-900 w-full md:w-[140rem] h-[400px] md:h-[500px]"></div> */}
             <div className="md:ml-10">
               <p
                 data-aos="fade-down"
