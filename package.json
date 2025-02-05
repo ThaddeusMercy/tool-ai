@@ -1,5 +1,6 @@
 {
   "name": "tool-ai",
+  "homepage": "https://toolai.ai",
   "version": "0.1.0",
   "private": true,
   "scripts": {
