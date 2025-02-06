@@ -3,6 +3,8 @@ import Image from "next/image";
 import ContainerLayout from "../../Layouts/ContainerLayout";
 import google from "../../assets/svg/google-logo.svg";
 import apple from "../../assets/svg/apple-logo.svg";
+import comingSoonImage from "../../assets/png/coming-soon.png";
+// import comingSoonImage from "../../assets/coming-soon.jpeg";
 
 interface TimeLeft {
   days: number;
@@ -95,34 +97,42 @@ const Hero = () => {
               Upgrade to the AI Web4 Browser Experience now
             </p>
 
-            <p
-              data-aos="zoom-in-up"
-              data-aos-easing="linear"
-              data-aos-duration="1000"
-              className="text-[#FFFFFF] text-[18px] md:text-[20px] font-normal mt-10"
-            >
-              Coming soon
-            </p>
-            <div className="flex flex-col md:flex-row md:items-center md:space-x-4 mt-10">
-              <Image
-                data-aos="zoom-out-down"
-                data-aos-easing="linear"
-                data-aos-duration="1000"
-                src={apple}
-                width={apple.width}
-                height={apple.height}
-                alt="apple"
-                className="mb-4 md:mb-0"
-              />
-              <Image
-                data-aos="zoom-out-down"
-                data-aos-easing="linear"
-                data-aos-duration="1000"
-                src={google}
-                width={google.width}
-                height={google.height}
-                alt="google"
-              />
+            <div className="relative flex flex-col md:flex-row md:items-center md:space-x-4 my-10">
+              <div className="relative flex flex-col md:flex-row md:items-center md:space-x-4">
+                <Image
+                  data-aos="zoom-out-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1000"
+                  src={apple}
+                  width={apple.width}
+                  height={apple.height}
+                  alt="apple"
+                  className="mb-4 md:mb-0 cursor-pointer"
+                />
+
+                <Image
+                  data-aos="zoom-out-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1000"
+                  src={google}
+                  width={google.width}
+                  height={google.height}
+                  alt="google"
+                />
+
+                <div className="bg-slate-50 w-20 h-10 absolute top-[60%] md:top-[70%] left-[18%] md:left-[45%] -translate-x-1/2 -translate-y-2/3 z-10 border-2 border-red-800">
+                  <Image
+                    data-aos="zoom-out-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                    src={comingSoonImage}
+                    alt="Coming Soon"
+                    width={100}
+                    height={100}
+                    className="opacity-90"
+                  />
+                </div>
+              </div>
             </div>
           </div>
 
