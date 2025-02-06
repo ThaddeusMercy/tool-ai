@@ -338,7 +338,7 @@ function FourthTab() {
               data-aos-duration="1000"
               src={davidTrack}
               alt="davidTrack"
-              className="w-full md:w-[140rem] h-[400px] md:h-[500px]"
+              className="w-full md:w-[140rem] h-[450px] md:h-[500px]"
             />
             <div className="md:ml-10">
               <p
