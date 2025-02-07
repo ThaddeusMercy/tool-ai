@@ -10,6 +10,7 @@ import apple from "../../assets/svg/apple-logo.svg";
 import google from "../../assets/svg/google-logo.svg";
 import Instagram from "../../assets/svg/Instagram.svg";
 import Twitter from "../../assets/svg/Twitter.svg";
+import comingSoonImage from "../../assets/png/coming-soon.png";
 
 const Footer = () => {
   return (
@@ -85,13 +86,50 @@ const Footer = () => {
               Get the App
             </p>
 
-            <div className="flex items-center">
+            {/* <div className="flex items-center">
               <Image
                 src={apple}
                 alt="apple"
                 className="w-[135px] h-[40px] mr-4"
               />
               <Image src={google} alt="google" className="w-[135px] h-[40px]" />
+            </div> */}
+            <div className="relative flex flex-col md:flex-row md:items-center md:space-x-4 my-10">
+              <div className="relative flex flex-col md:flex-row md:items-center md:space-x-4">
+                <Image
+                  data-aos="zoom-out-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1000"
+                  src={apple}
+                  width={apple.width}
+                  height={apple.height}
+                  alt="apple"
+                  className="mb-4 md:mb-0 cursor-pointer"
+                />
+
+                <Image
+                  data-aos="zoom-out-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1000"
+                  src={google}
+                  width={google.width}
+                  height={google.height}
+                  alt="google"
+                />
+
+                <div className="bg-slate-50 w-20 h-10 absolute top-[60%] md:top-[70%] left-[18%] md:left-[45%] -translate-x-1/2 -translate-y-2/3 z-10 border-2 border-red-800">
+                  <Image
+                    data-aos="zoom-out-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                    src={comingSoonImage}
+                    alt="Coming Soon"
+                    width={100}
+                    height={100}
+                    className="opacity-90"
+                  />
+                </div>
+              </div>
             </div>
 
             <p className="text-[#D9D9D9] text-[16px] font-normal mt-6">
